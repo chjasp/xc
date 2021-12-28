@@ -1,0 +1,25 @@
+.profile-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 10rem;
+    text-align: center;
+    margin-top: 10rem;
+    color: #00414B;
+    font-size: 28px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.logout-btn {
+    margin-top: 2rem;
+    padding: 10px 15px;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #00414B;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}

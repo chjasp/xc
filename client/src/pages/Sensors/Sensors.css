@@ -1,0 +1,46 @@
+.header-report, .header-status {
+  cursor: pointer;
+}
+
+.sensor-field {
+  cursor: pointer;
+}
+
+.sensor-field:hover {
+  text-decoration:underline;
+}
+
+.sensor-link {
+  text-decoration: none;
+  color: black;
+}
+
+.order-btn {
+  border: 3px solid #00414B;
+  background-color: #00414B;
+  color: white;
+  padding: 7px 3px 5px 8px;;
+  font-weight: 900;
+  cursor: pointer;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  flex-direction: row;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.listelems {
+  padding: 0.4rem;
+}
+
+.listelems.selected {
+  background-color: #00414B;
+  color: white;
+}
+

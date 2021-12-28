@@ -1,0 +1,81 @@
+.filter {
+  padding-left: 0.6rem;
+  filter: invert(100%);
+  height: 1rem;
+}
+
+.header-report,
+.header-duedate {
+  cursor: pointer;
+}
+
+.duedate-field {
+  cursor: pointer;
+}
+
+.duedate-field:hover {
+  text-decoration: underline;
+}
+
+.duedate-link {
+  text-decoration: none;
+  color: black;
+}
+
+
+.order-btn {
+  border: 3px solid #00414B;
+  background-color: #00414B;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.vals {
+  list-style-type: none;
+  overflow: auto;
+}
+
+.listelems {
+  padding: 0.4rem;
+  margin-top: 0.3rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.listelems:hover {
+  background: #f4f4f4;
+}
+
+
+.listelems.selected {
+  background-color: #00414B;
+  color: white;
+}
+
+.csv-form {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  padding: 0.5rem;
+  height: 4rem;
+  width: 20rem;
+  background: #FFCC33;
+  position: relative;
+  z-index: 20;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.csv-input {
+  position: relative;
+  z-index: 20;
+  cursor: pointer;
+}

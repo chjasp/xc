@@ -1,0 +1,148 @@
+.NavbarItems {
+    background: #fff;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 8%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom: 5px solid #FFCC33;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 13;
+}
+
+.navbar-logo {
+    color: #00414B;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 40px;
+}
+
+.title {
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.nav-link {
+    color: #00414B;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+}
+
+
+
+.nav-link:hover {
+    text-decoration: none;
+    background-color: #00414B;
+    color: white;
+}
+
+.nav-link.active {
+    text-decoration: none;
+    background-color: #00414B;
+    color: white;
+}
+
+
+.nav-links-mobile {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .NavbarItems {
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        top: 5rem;
+        left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active {
+        background: #FFCC33;
+        left: 0;
+        transition: all 0.5s ease;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        z-index: 10;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        text-decoration: none;
+        background-color: #00414B;
+        color: white;
+
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 2rem;
+        /* top: 1.8rem; */
+        /* transform: translate(-100%, 60%); */
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .fa-times {
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .nav-links-mobile {
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: 2rem auto;
+        width: 80%;
+        background: #4ad9e4;
+        text-decoration: none;
+        color: #00414B;
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        filter: opacity(90%);
+    }
+}

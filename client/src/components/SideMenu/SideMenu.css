@@ -1,0 +1,33 @@
+.upload-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    right: -8.9rem;
+    top: 30%;
+    padding: 0.5rem;
+    position: absolute;
+
+    background-color: #FFCC33;
+    height: 3rem;
+    width: 12rem;
+
+    font-weight: 900;
+    color: #00414B;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+    transition: transform 0.4s;
+    z-index: 60;
+}
+
+.upload-btn:hover {
+    transform: translateX(-8.0rem)
+}
+
+.upload-icon {
+    font-size: x-large;
+    margin-left: -1.1rem;
+    margin-right: 0.5rem;
+}

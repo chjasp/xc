@@ -1,0 +1,31 @@
+.btn-page-wrapper {
+  max-width: 700px;
+  display: flex;
+  margin-top: 2rem;
+  max-width: 40vw;
+  overflow: auto;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  z-index: 9;
+
+}
+
+.btn-page {
+  border: 3px solid #00414B;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 0.7rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-page.focus {
+  border: 3px solid #00414B;
+  background-color: #00414B;
+  color: white;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}

@@ -1,0 +1,199 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0.5);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainerResult {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+    padding: 25px;
+    position: relative;
+    margin-top: -10rem;
+}
+
+.titleCloseBtnResult {
+    position: absolute;
+    top: 0.4rem;
+    height: 30px;
+    right: 0.6rem;
+}
+
+.titleCloseBtnResult button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+}
+
+.modalContainerResult .title {
+    display: inline-block;
+    text-align: center;
+    font-size: medium;
+    margin-top: 10px;
+    color: #333;
+}
+
+.uploadstatus {
+    height: 1.3rem;
+}
+
+.uploadstatus.Success {
+    color: green;
+}
+
+.uploadstatus.Failed {
+    color: red;
+
+}
+
+.modalContainerResult .body {
+    /* flex: 50%; */
+    height: 90%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.modalContainerResult .footer {
+    margin-top: 0.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.result-upload-btn {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: #FFCC33;
+    color: #00414B;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-task {
+    position: relative;
+    z-index: 20;
+    cursor: pointer;
+    background-color: #00414B;
+    padding: 0.5rem;
+    color: white;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.csv-select, .csv-btn {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.csv-btn {
+    background-color: #FFCC33;
+    color: #00414B;
+}
+
+.csv-select {
+    background-color: #00414B;
+    color: white;
+}
+
+.csv-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preface {
+    font-size: medium;
+    font-weight: 900;
+    color: #333;
+}
+
+.text-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+}
+
+.info-field {
+    margin-top: 0.5rem;
+    height: 2.9rem;
+    width: 17rem;
+    padding: 7px;
+    font-size: 16px;
+    border: 0;
+    background: #f2f2f2;
+
+    position: inherit;
+
+    overflow-y: scroll;
+
+    /* white-space: nowrap; */
+    
+    font-size: medium;
+    font-weight: 100;
+    color: #666;
+}
+
+.check {
+    margin-top: 1rem;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 20rem;
+    padding: 15px 20px;
+
+    border: 3px solid #333;
+
+}

@@ -1,0 +1,41 @@
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 184.73 160">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Neues_Verlaufsfeld_2);
+      }
+
+      .cls-2 {
+        fill: url(#Neues_Verlaufsfeld_2-2);
+      }
+
+      .cls-3 {
+        fill: url(#Neues_Verlaufsfeld_2-3);
+      }
+
+      .cls-4 {
+        fill: url(#Neues_Verlaufsfeld_2-4);
+      }
+    </style>
+    <radialGradient id="Neues_Verlaufsfeld_2" data-name="Neues Verlaufsfeld 2" cx="105.06" cy="92.83" r="36.47" gradientTransform="translate(-258.57 -221.2) scale(3.91)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe319"/>
+      <stop offset="0.2" stop-color="#fdd70d"/>
+      <stop offset="0.48" stop-color="#facb00"/>
+      <stop offset="0.63" stop-color="#f8c700"/>
+      <stop offset="0.78" stop-color="#f1bb00"/>
+      <stop offset="0.89" stop-color="#eaae00"/>
+      <stop offset="0.92" stop-color="#e4a500"/>
+      <stop offset="1" stop-color="#d89300"/>
+    </radialGradient>
+    <radialGradient id="Neues_Verlaufsfeld_2-2" cx="95.31" cy="56.57" r="36.4" xlink:href="#Neues_Verlaufsfeld_2"/>
+    <radialGradient id="Neues_Verlaufsfeld_2-3" cx="69.03" cy="83.22" r="36.31" xlink:href="#Neues_Verlaufsfeld_2"/>
+    <radialGradient id="Neues_Verlaufsfeld_2-4" cx="105.06" cy="92.68" r="36.47" xlink:href="#Neues_Verlaufsfeld_2"/>
+  </defs>
+  <title>cb-logo-figurative-mark</title>
+  <g id="Bildmarke">
+    <path id="Überlappung_Verlauf_rechts" data-name="Überlappung Verlauf rechts" class="cls-1" d="M103.62,5A28.25,28.25,0,0,1,115.15.6c2.6-.28,11.15-0.17,20.9-0.17a0.14,0.14,0,0,1,.1.06l-0.26-.43A1.58,1.58,0,0,0,135,0H116.58C114,0,104,0,92.47,14l0.45,0.54A51.57,51.57,0,0,1,103.62,5Z" transform="translate(-0.27)"/>
+    <path class="cls-2" d="M121.86,0H49.48a0.12,0.12,0,0,0-.1,0L13.14,62.83,1.77,82.51,0.45,84.8l-0.17.29a0.08,0.08,0,0,0,0,.11l34.88,60.42a6.72,6.72,0,0,0-.37-0.88c-0.73-1.37-1.28-2.43-1.58-3.1a28.18,28.18,0,0,1-2-12.18c0.58-11.58,6.73-23,9.81-28.36,7.27-12.58,21.31-36.89,21.31-36.89s14-24.32,21.29-36.9C86.71,22,93.54,10.92,103.26,4.63A28.29,28.29,0,0,1,114.85.3c1.17-.13,3.57-0.2,6.74-0.24C121.85,0,121.86,0,121.86,0Z" transform="translate(-0.27)"/>
+    <path class="cls-3" d="M177.84,97.46c-1.63,2.74-2.9,4.78-3.59,5.72a28.24,28.24,0,0,1-9.53,7.86c-10.33,5.29-23.29,5.66-29.48,5.66H50c-6.18,0-19.15-.37-29.47-5.66A28.27,28.27,0,0,1,11,103.18c-0.69-.95-2-3-3.58-5.71a0.46,0.46,0,0,0-.2-0.22l3.61,6.24L43.45,160a0.17,0.17,0,0,0,.1,0h98.17a0.09,0.09,0,0,0,.09-0.05L178,97.23A0.46,0.46,0,0,0,177.84,97.46Z" transform="translate(-0.27)"/>
+    <path class="cls-4" d="M185,85.07l-49.1-85A0.09,0.09,0,0,0,135.81,0h-14s0,0-.25.06c-3.17,0-5.57.11-6.74,0.24a28.29,28.29,0,0,0-11.59,4.33,49.65,49.65,0,0,0-10.62,9.62,87.82,87.82,0,0,1,9,13.06L123,64.21s14,24.31,21.29,36.89c3.09,5.35,9.25,16.77,9.82,28.36a28.4,28.4,0,0,1-2,12.18c-0.47,1.08-1.62,3.2-3.17,6a0.68,0.68,0,0,0-.11.31L185,85.17A0.19,0.19,0,0,0,185,85.07Z" transform="translate(-0.27)"/>
+  </g>
+</svg>

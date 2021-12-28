@@ -1,0 +1,37 @@
+CREATE TABLE reports (
+	dqr_id int(11) PRIMARY KEY AUTO_INCREMENT,
+	dqr_name varchar(100),
+	dqr_date date,
+	dqr_comment text
+);
+
+CREATE TABLE sensors (
+	dqs_id int(11) PRIMARY KEY,
+	dqs_name varchar(100),
+	dqs_dimensions varchar(20),
+	dqs_type varchar(20),
+	dqs_risk_type varchar(100),
+	dqs_layer varchar(20),
+	dqs_owner_group_division varchar(100),
+	dqs_owner_division_head varchar(100),
+	dqs_owner varchar(100), 
+	dqs_delivery_time varchar(100), 
+	dqs_delivery varchar(20),  
+	dqs_description text,         
+	dqs_measurement text,         
+	dqs_status_red decimal(4,3), 
+	dqs_status_amber decimal(4,3), 
+	dqs_valid_from date,         
+	dqs_valid_to date    
+);
+ 
+CREATE TABLE results (
+	dqm_id int(11) PRIMARY KEY AUTO_INCREMENT,
+	dqs_id int(11),
+	dqr_id int(11),
+	dqm_score decimal(4,3),
+	dqm_comment text,
+	dqm_timestamp date,
+	dqm_status int(11),
+	dqm_task_status varchar(45)
+);

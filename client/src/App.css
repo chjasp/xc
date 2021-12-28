@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.app-inner {
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: top;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.content-table {
+  table-layout: fixed;
+
+  margin-top: 10rem;
+  border-collapse: collapse;
+  position: relative;
+  font-size: 1.2em;
+  max-width: 1500px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #00414B;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;  
+}
+
+.content-table.all tbody {
+  width: 100%;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.content-table tbody tr.highlited {
+  font-weight: bold;
+  color: white;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.dot {
+  margin-bottom: -4px;
+  margin-left: 1rem;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.dot.Red {
+  background-color: red;
+}
+.dot.Amber {
+  background-color: orange;
+}
+.dot.Green {
+  background-color: green;
+}
+
+.filter {
+  padding-left: 0.6rem;
+  filter: invert(100%);
+  height: 1rem;
+}
+
+.dropdown {
+  position: absolute;
+  max-height: 20vh;
+  margin-top: 1rem;
+  font-size: 16px;
+  max-height: 10rem;
+  overflow: auto;
+  padding: 10px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-weight: 500;
+  color: #333;
+  z-index: 50;
+}
+
+.arrow-ASC {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+}
+
+.arrow-DESC {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  
+  border-top: 6px solid white;;
+}
+
+.arrow-none {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #00414B;
+}
